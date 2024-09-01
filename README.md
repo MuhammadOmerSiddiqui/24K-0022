@@ -20,5 +20,5 @@ Connect with Me
 
 Feel free to connect with me if you share similar interests or have any opportunities in AI, technology, or music!
 
-This is a repository that will be used to practice github and submit lab tasks and assignments.
-![FAST-NUCES](https://myoctocat.com/assets/images/base-octocat.svg)
+
+![](https://myoctocat.com/assets/images/base-octocat.svg)
