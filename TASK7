@@ -1,0 +1,16 @@
+DECLARE num1 , num2 : INTEGER
+DECLARE operation : CHAR
+INPUT num1 , num2 , operation
+WHILE(operation != '+' AND operation != '-' AND operation != '*' AND operation != '/') DO
+  OUTPUT "INVALID OPERATION, INPUT AGAIN:"
+  INPUT operation
+ENDWHILE
+IF operation == '+' THEN
+  OUTPUT num1+num2
+ELSE IF operation == '-' THEN
+  OUTPUT num1-num2
+ELSE IF operation == '*' THEN
+  OUTPUT num1*num2
+ELSE
+  OUTPUT num1/num2
+ENDIF
