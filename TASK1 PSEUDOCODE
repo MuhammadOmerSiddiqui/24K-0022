@@ -1,0 +1,16 @@
+START
+PRINT Menu
+Take the order
+IF the customer wants to have some add-ons THEN 
+    Also, Note down the add-ons
+ENDIF
+serve the order
+Take cash
+IF cash == bill THEN 
+    PRINT "Payment received"
+ELSE IF cash<bill THEN
+    Take cash
+ELSE
+    change = cash-bill
+    Return change
+ENDIF
