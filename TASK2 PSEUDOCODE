@@ -1,0 +1,13 @@
+START
+INPUT account_number
+IF account_number is present in the database THEN
+    INPUT deposit_amount
+    IF deposit_amount >= 0 THEN
+    balance = balance + deposit_amount
+    PRINT balance
+    ELSE
+    PRINT "Invalid amount entered"
+    ENDIF
+ELSE
+    PRINT "Invalid account number"
+ENDIF
