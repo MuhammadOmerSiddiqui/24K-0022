@@ -1,0 +1,5 @@
+DECLARE speedInKilometersPerSecond , speedInMilesPerHour : FLOAT //variable declaration
+PRINT "ENTER THE SPEED IN KILOMETERS PER HOUR:" //Prompt for inputting speed in kilometers per hour
+INPUT speedInKilometersPerSecond //inputting the speed 
+speedInMilesPerHour = (speedInKilometersPerSecond*0.621371)*3600 //formula to convert the speed into miles per hour
+PRINT "THE SPEED IN MILES PER HOUR IS:" , speedInMilesPerHour //Printing the speed in miles per hour

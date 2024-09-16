@@ -1,0 +1,36 @@
+DECLARE province : STRING //variable declaration
+DECLARE age : INTEGER //variable declaration
+DECLARE gender : CHAR //variable declaration
+PRINT "PLEASE ENTER YOUR PROVINCE:" //prompt for taking input
+INPUT province
+PRINT "PLEASE ENTER YOUR AGE:" //prompt for taking input
+INPUT age
+IF province == "sindh" //conditional statement 
+    THEN
+      IF age<18 
+          THEN
+            PRINT "YOU ARE NOT ALLOWED TO MARRY!"
+      ELSE
+            PRINT "YOU ARE ALLOWED TO MARRY"
+      ENDIF 
+ELSE
+    PRINT "PLEASE ENTER YOUR GENDER"
+    INPUT gender
+    IF gender == 'f'
+        THEN
+          IF age<16
+              THEN
+                PRINT "YOU ARE NOT ALLOWED TO MARRY!"
+          ELSE
+                PRINT "YOU ARE ALLOWED TO MARRY"
+          ENDIF 
+    ELSE IF gender == 'm'
+        THEN
+          IF age<18 
+              THEN
+                PRINT "YOU ARE NOT ALLOWED TO MARRY!"
+          ELSE
+                PRINT "YOU ARE ALLOWED TO MARRY"
+          ENDIF
+    ENDIF
+ENDIF

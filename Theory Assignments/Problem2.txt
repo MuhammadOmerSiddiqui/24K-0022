@@ -1,0 +1,13 @@
+DECLARE number : INTEGER //variable declaration
+PRINT "PLEASE ENTER ANY NUMBER OF YOUR OWN CHOICE:" //prompt for inputting the number
+INPUT number //taking input 
+WHILE number<=0 DO //validating input
+    PRINT"INVALID INPUT! PLEASE ENTER A POSITIVE NUMBER"
+    INPUT number
+ENDWHILE //endwhile
+IF number MOD 2 == 0 //conditional statement to check whether the number is divisible by 2
+    THEN
+      PRINT"IT'S A EVEN NUMBER" 
+ELSE
+    PRINT"IT'S A ODD NUMBER"
+ENDIF 
